@@ -5,7 +5,7 @@
   "main": "babel.config.js",
   "scripts": {
     "build": "webpack --mode production",
-    "dev": "webpack server"
+    "dev": "webpack serve"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/BaturinSS/ITMO-University_LP#readme",
   "dependencies": {
     "core-js": "^3.21.1",
-    "jquery": "^3.6.0"
+    "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",
@@ -32,6 +32,7 @@
     "cssnano": "^5.1.5",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.0",
+    "postcss": "^8.4.12",
     "postcss-loader": "^6.2.1",
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2",
