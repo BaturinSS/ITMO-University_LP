@@ -24,6 +24,7 @@
 
 ## **БЛОК INDUSTRIAL AL RESEARCH LAB**
 ![Блок INDUSTRIAL AL RESARCH](https://user-images.githubusercontent.com/94468513/160718512-d6143cb3-7853-4200-8e0d-b3424d0b6901.png)
+![Блок 3](https://user-images.githubusercontent.com/94468513/160721139-e1381f11-9f08-4cd9-9b3e-ddd8d85bd771.png)
 Раздел содержит карточки с описанием направлений обучения в лаборатории.
 При наведении на карточку она анимируется.
 
