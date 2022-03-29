@@ -85,9 +85,13 @@
 ## :copyright: Авторы проекта:
 
 [Мискевич Станислав](https://github.com/MiskevichStanislav)
+<br>
 [Батурин Сергей](https://github.com/BaturinSS)
+<br>
 [Саитов Николай](https://github.com/nikolaysaitov)
+<br>
 [Илья Ссюхин](https://www.yandex.ru)
+<br>
 [Юрий Карпов](https://www.yandex.ru)
 
 
