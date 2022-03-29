@@ -1,6 +1,6 @@
 # **ITMO-University_LP**
 ---
-[ITMO-University](https://www.yandex.ru "Нажми на меня")
+## Ссылка на проект:[ITMO-University](https://www.yandex.ru "Нажми на меня")
 ---
 <br>
 
