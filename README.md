@@ -17,31 +17,31 @@
 ---
 
 ## **БЛОК НЕСКОЛЬКО СЛОВ О НАС**
-<img src="https://disk.yandex.ru/i/W7Hz3EFfos16wA" width="30">
+![Блок несколько слов о нас](https://user-images.githubusercontent.com/94468513/160718473-628bdd4f-463e-4b9e-983f-c8872fd36032.png)
 Содержит небольшое описание лаборатории и 10 карточек с новостями.
 
 ---
 
 ## **БЛОК INDUSTRIAL AL RESEARCH LAB**
-<img src="https://disk.yandex.ru/i/ftqUIE-bQ5W1lg" width="30">
+![Блок INDUSTRIAL AL RESARCH](https://user-images.githubusercontent.com/94468513/160718512-d6143cb3-7853-4200-8e0d-b3424d0b6901.png)
 Раздел содержит карточки с описанием направлений обучения в лаборатории.
 При наведении на карточку она анимируется.
 
 ## **БЛОК НАШИ ПРОЕКТЫ**
-<img src="https://disk.yandex.ru/i/RpOhbOFb1yJRSQ" width="30">
+![Блок НАШИ ПРОЕКТЫ](https://user-images.githubusercontent.com/94468513/160718532-aa6edfec-92d3-49d8-97d7-a6ec990464d1.png)
 При клике на блок с проектом карточка раздвигается  и пользователь видит полную информацию про проект:
 
 - В закрытом виде карточка содержит до 4-х строк
 - В открытом виде до 7-ми строк
 
 ## **БЛОК ОБРАЗОВАНИЕ**
-<img src="https://disk.yandex.ru/i/MJDMMdbgT9cz-g" width="30">
+![Блок ОБРАЗОВАНИЕ](https://user-images.githubusercontent.com/94468513/160718554-ccb6796b-8cda-4e35-852c-f365628feaf9.png)
 Раздел содержит текстовую информацию о программах аспирантуры и магистратуры. Клик на "Подробнее" в блоке с описанием ведёт на внешний ресурс ИТМО: Магистратура и Аспирантура.
 
 ---
 
 ## **БЛОК ПУБЛИКАЦИИ**
-<img src="https://disk.yandex.ru/i/ZJr28MqS9Z0ZOg" width="30">
+![Блок ПУБЛИКАЦИИ](https://user-images.githubusercontent.com/94468513/160718577-f1198c96-3071-4b7e-affd-685e69f50f21.png)
 Клик на "Читать полностью" в разделе “Публикации” уводит на нужную статью.
 Также блоками можно поделиться в соц.сетях.
 
@@ -50,25 +50,25 @@
 ---
 
 ## **БЛОК НАША КОМАНДА**
-<img src="https://disk.yandex.ru/i/eVk4_bqETNc6tQ" width="30">
+![Блок НАША КОМАНДА](https://user-images.githubusercontent.com/94468513/160718602-ad2508e3-0c8c-4b6b-84cb-cb65cd019126.png)
 Раздел о сотрудниках лаборатории.
 
 ---
 
 ## **БЛОК С КЕМ МЫ РАБОТАЕМ**
-<img src="https://disk.yandex.ru/i/uyDEo8thc7xKuw" width="30">
+![Блок С КЕМ МЫ РАБОТАЕМ](https://user-images.githubusercontent.com/94468513/160718624-1053f0af-ca8b-48a6-b6d2-5bd08be4571a.png)
 Раздел содержит информацию о партнёрах лаборатории, все логотипы в нём некликабельные.
 
 ---
 
 ## **БЛОК ВСЕГДА НА СВЯЗИ**
-<img src="https://disk.yandex.ru/i/wqHviS6neSnoCA" width="30">
+![Блок ВСЕГДА НА СВЯЗИ](https://user-images.githubusercontent.com/94468513/160718661-3306e67d-68d2-4882-a4a5-a93ddf55f921.png)
 Форма отправляет сообщения на почту ИТМО.
 
 ---
 
 ## **БЛОК FOOTER**
-<img src="https://disk.yandex.ru/i/r11_PXiKWQyCLQ" width="30">
+![Бок Footer](https://user-images.githubusercontent.com/94468513/160718677-9f65a2c2-fc12-42ef-8f8a-12cdee14d7f9.png)
 
 ---
 
