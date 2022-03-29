@@ -78,13 +78,13 @@
 ---
 
 ## :pill: Используемые технологии:
-- ### HTML
-- ### CSS
-- ### JS
-- ### WebPack
-- ### NPM
-- ### nested
-- ### Node.js
+- #### HTML
+- #### CSS
+- #### JS
+- #### WebPack
+- #### NPM
+- #### nested
+- #### Node.js
 ---
 
 ## :book: Используемая литература:
