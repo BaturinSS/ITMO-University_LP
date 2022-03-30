@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/index.css">
   <title>Document</title>
 </head>
 
 <body class="page">
   <header class="header">
-    <img src="" alt="логотип" class="logo header__logo">
+    <img src="<%=require('./images/logo.png')%>" alt="логотип" class="logo header__logo">
     <nav class="header__nav">
       <a href="" class="header__link header__link-active">О нас</a>
       <a href="" class="header__link">Лаборатория</a>
@@ -25,17 +26,33 @@
   <main class="main">
 
     <section class="itmo-info">
+      <div class="itmo-info__block">
       <h1 class="itmo-info__title-fatty">Когнитивные технологии,<h2 class="itmo-info__title">машинное обучение</h2>
       </h1>
       <p class="itmo-info__text">Системы прикладного искусственного интеллекта</p>
       <button class="button itmo-info__button">НАШИ ПРОЕКТЫ</button>
+    </div>
       <h3 class="itmo-info__subtitle">Несколько слов о нас</h3>
       <p class="text itmo-info__text">Национальный центр когнитивных разработок – центр национальной технологической
         инициативы (НТИ), получивший государственную поддержку по направлению «Технологии машинного обучения и
         когнитивные технологии».</p>
+
       <div class="articles">
         <button class="round-button articles__round-button-left"></button>
+        <div class="articles-blocks">
         <div class="articles-block">
+          <img src="<%=require('./images/button.svg')%>" alt="кнопка" class="articles-block__img-button">
+          <p class="articles-block__date">Понедельник, 5 июля 2021г</p>
+          <h4 class="articles-block__subtitle">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…
+          </h4>
+          <div class="line"></div>
+          <p class="articles-block__text">Университет ИТМО провел научно-исследовательскую стажировку для группы
+            магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели в
+            течение десяти дней рассказывали им об основах машинного обучения. </p>
+        </div>
+
+        <div class="articles-block">
+          <img src="<%=require('./images/button.svg')%>" alt="кнопка" class="articles-block__img-button">
           <p class="articles-block__date">Понедельник, 5 июля 2021г</p>
           <h4 class="articles-block__subtitle">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…
           </h4>
@@ -45,6 +62,7 @@
             течение десяти дней рассказывали им об основах машинного обучения. </p>
         </div>
         <div class="articles-block">
+          <img src="<%=require('./images/button.svg')%>" alt="кнопка" class="articles-block__img-button">
           <p class="articles-block__date">Понедельник, 5 июля 2021г</p>
           <h4 class="articles-block__subtitle">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…
           </h4>
@@ -53,23 +71,16 @@
             магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели в
             течение десяти дней рассказывали им об основах машинного обучения. </p>
         </div>
-        <div class="articles-block">
-          <p class="articles-block__date">Понедельник, 5 июля 2021г</p>
-          <h4 class="articles-block__subtitle">ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…
-          </h4>
-          <div class="line"></div>
-          <p class="articles-block__text">Университет ИТМО провел научно-исследовательскую стажировку для группы
-            магистрантов из Евразийского национального университета имени Л.Н. Гумилева. Ведущие преподаватели в
-            течение десяти дней рассказывали им об основах машинного обучения. </p>
-        </div>
+      </div>
         <button class="round-button articles__round-button-right"></button>
       </div>
-      <div class="itmo-info__pagenations">
-        <a href="#" class="pagenation itmo-info__pagenation_active"></a>
-        <a href="#" class="pagenation"></a>
-        <a href="#" class="pagenation"></a>
-        <a href="#" class="pagenation"></a>
-      </div>
+      <ul class="itmo-info__pagenations">
+        <li  class="pagenation itmo-info__pagenation_active"><a href="#" class="pagenation__link"></a></li>
+        <li class="pagenation"><a href="#" class="pagenation__link"></a></li>
+        <li class="pagenation"><a href="#" class="pagenation__link"></a></li>
+        <li class="pagenation"><a href="#" class="pagenation__link"></a></li>
+      </ul>
+
     </section>
 
     <section class="lab">

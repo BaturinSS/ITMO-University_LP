@@ -1,0 +1,433 @@
+.page {
+  margin: 0 auto;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  background-color: #000D26;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 135px;
+}
+
+.logo {
+  width: 150px;
+  height: 54px;
+}
+
+.header__logo {}
+
+.header__nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header__link {
+  width: 100px;
+  text-decoration: none;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.header__link-active {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #009FAC;
+}
+
+.main {}
+
+.itmo-info {
+  background: #001337 url(../images/Background.png) no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.itmo-info__block {
+  max-width: 425px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 92px;
+  right: 395px;
+}
+
+.itmo-info__title-fatty {
+  margin: 0;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 68px;
+  letter-spacing: 0.1px;
+}
+
+.itmo-info__title {
+  margin: 0;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 68px;
+  letter-spacing: 0.1px;
+}
+
+.itmo-info__text {
+  margin: 0;
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+.button {
+  height: 60px;
+  width: 278px;
+  border: 1px solid #E0F0FF;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #001337;
+}
+
+.itmo-info__button {
+  margin-top: 55px;
+  color: #FFF;
+}
+
+.itmo-info__subtitle {
+  margin: 0;
+  padding-top: 696px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;
+  letter-spacing: 0.1px;
+}
+
+.text {
+  margin: 0;
+  max-width: 907px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  margin-top: 30px;
+}
+
+.articles {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  margin-top: 45px;
+}
+
+.round-button {
+  /* width: 60px;
+  height: 60px;
+  background-color: #001337;
+  border-radius: 50%;
+  border: #001337;
+  box-shadow: 0 0 5px 2px rgba(122, 122, 122, 0.5);
+  position: relative;
+   */
+
+  background-image: url"<%=require('../images/Button\ round.svg')%>";
+  width:60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.articles__round-button-left {}
+
+/* .round-button__img{
+position: absolute;
+top: -26px;
+right: -30px;
+cursor: pointer;
+} */
+
+.articles-blocks {
+  display: flex;
+  gap: 32px;
+}
+
+.articles-block {
+  min-width: 348px;
+  min-height: 340px;
+  background-color: #E0F0FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.articles-block__img-button {
+  width: 29px;
+  height: 40px;
+  position: absolute;
+  top: -15px;
+  right: -7px;
+}
+
+.articles-block__date {
+  min-width: 308px;
+  margin: 0;
+  margin-top: 20px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #009FAC;
+  padding-top: -20px;
+}
+
+.articles-block__subtitle {
+  max-width: 308px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #001337;
+  margin-top: 8px;
+}
+
+.line {
+  width: 308px;
+  border: 1px solid #009FAC;
+  margin-top: 20px;
+}
+
+.articles-block__text {
+  max-width: 308px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000D26;
+  margin-top: 20px;
+}
+
+.articles__round-button-right {}
+
+.itmo-info__pagenations {
+  margin-top: 26px;
+  margin-bottom: 101px;
+  display: flex;
+  gap: 12px;
+}
+
+
+.pagenation {
+  display: inline-block;
+  background-color: #FFF;
+  opacity: 0.5;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.pagenation__link {}
+
+.itmo-info__pagenation_active {
+  opacity: 1;
+}
+
+.lab {}
+
+.lab__title {}
+
+.lab-info {}
+
+.lab-text {}
+
+.lab-info__text {}
+
+.lab-info__text-fatty {}
+
+.lab-text__img {}
+
+.lab-info__img {}
+
+.lab-blocks {}
+
+.lab-block {}
+
+.lab-block__title {}
+
+.lab-block__img {}
+
+.lab-block__text {}
+
+.lab-block__button {}
+
+.lab-block_active {}
+
+.projects {}
+
+.project__title {}
+
+.project__nav {}
+
+.projects__link {}
+
+.project__blocks {}
+
+.project__block {}
+
+.project__logo {}
+
+.project__text {}
+
+.project__excerpt {}
+
+.button__arrow-left {}
+
+.project__nuber {}
+
+.span {}
+
+.button__arrow-right {}
+
+.education {}
+
+.education__title {}
+
+.education__text {}
+
+.education__block {}
+
+.education__text-content {}
+
+.education__caption {}
+
+.education__list {}
+
+.education__item {}
+
+.education__excerpt {}
+
+.education__img {}
+
+.education__buttons {}
+
+.education__button-postgraduate {}
+
+.education__button-master {}
+
+.publications {}
+
+.publications__title {}
+
+.publications__blocks {}
+
+.publications__round-button-left {}
+
+.publications__block {}
+
+.publications__img {}
+
+.publications__caption {}
+
+.publications__subtitle {}
+
+.publications__text {}
+
+.publications__round-button-right {}
+
+.publications__pagenations {}
+
+.publications__pagenation_active {}
+
+.command {}
+
+.command__blocks {}
+
+.command__round-button-left {}
+
+.command__block {}
+
+.command__img {}
+
+.command__full-name {}
+
+.command__profession {}
+
+.command__round-button-right {}
+
+.command__pagenations {}
+
+.command__pagenation_active {}
+
+.command__subtitle {}
+
+.command__text {}
+
+.command__brands {}
+
+.command__brand {}
+
+.connection {}
+
+.connection__title {}
+
+.connection__text {}
+
+.conection__form {}
+
+.connection__input {}
+
+.connection__input_value_name {}
+
+.connection__input_value_surname {}
+
+.connection__textarea {}
+
+.connection__input_value_tel {}
+
+.connection__input_value_email {}
+
+.connection__submit {}
+
+.footer {}
+
+.footer__logo {}
+
+.footer__info {}
+
+.foter__university {}
+
+.footer__text {}
+
+.footer__author {}
+
+.footer__center {}
+
+.center__caption {}
+
+.center__links {}
+
+.center__link {}
+
+.development {}
+
+.development__title {}
+
+.development__links {}
+
+.development__link {}
+
+.addresses {}
+
+.addresses__city {}
+
+.addresses__tel {}
+
+.addresses__email {}
+
+.addresses__socials {}
+
+.addresses__img {}
